@@ -4,14 +4,14 @@ This lab is a two page website
 The website is based on a real entertainment company called **D.E.M Entertainment Group**. It is my sole proprietorship company.
 
 ## The Project Pages
-- `index.html` – Home page
-- `contact.html` – Contact page
+- index.html – Home page
+- contact.html – Contact page
 
 ## The Project Structure
-- `index.html`
-- `contact.html`
-- `styles/styles.css`
-- `images/Green.Ent.png`
+- index.html
+- contact.html
+- styles/styles.css
+- images/Green.Ent.png
 
 ## The Features according to rubric
 - Shared header and footer on both pages
