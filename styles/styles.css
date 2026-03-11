@@ -1,0 +1,146 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f4f4f4;
+  color: #222;
+}
+
+.page-container {
+  width: 640px;
+  margin: 20px auto;
+  border: 1px solid #888;
+  background-color: #fff;
+}
+
+header {
+  padding: 18px 18px 0;
+}
+
+.branding {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 14px;
+}
+
+.logo {
+  width: 105px;
+  height: 80px;
+  border: 2px solid #2e8b57;
+  border-radius: 50%;
+  padding: 5px;
+  background-color: #fff;
+  object-fit: contain;
+}
+
+.branding h1 {
+  font-size: 26px;
+  margin: 0;
+  font-weight: normal;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 18px 0;
+  width: 115px;
+}
+
+nav li {
+  margin-bottom: 5px;
+}
+
+nav a {
+  display: block;
+  text-decoration: none;
+  border: 1px solid #2e8b57;
+  padding: 6px 12px;
+  color: #2e8b57;
+  background-color: #fff;
+  font-size: 14px;
+}
+
+nav a.active {
+  background-color: #2e8b57;
+  color: #fff;
+}
+
+main {
+  padding: 0 18px 18px;
+  min-height: 290px;
+}
+
+section {
+  margin-bottom: 34px;
+}
+
+section h2 {
+  font-size: 18px;
+  margin-bottom: 12px;
+}
+
+section p {
+  font-size: 14px;
+  line-height: 1.6;
+  max-width: 500px;
+}
+
+.contact-main {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  min-height: 290px;
+  padding-top: 40px;
+}
+
+form {
+  width: 330px;
+}
+
+.form-row {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 12px;
+}
+
+.form-row label {
+  width: 110px;
+  font-size: 14px;
+}
+
+.form-row input,
+.form-row textarea {
+  border: 1px solid #777;
+  padding: 4px;
+  font-size: 14px;
+  width: 160px;
+}
+
+.form-row textarea {
+  height: 50px;
+  resize: none;
+}
+
+button {
+  margin-left: 110px;
+  padding: 4px 18px;
+  border: 1px solid #2e8b57;
+  background-color: #2e8b57;
+  color: white;
+  cursor: pointer;
+}
+
+footer {
+  text-align: center;
+  padding: 10px 10px 18px;
+  font-size: 13px;
+  color: #666;
+}
+
+footer p {
+  margin: 4px 0;
+}
+
+footer a {
+  color: #2e8b57;
+  text-decoration: none;
+}
